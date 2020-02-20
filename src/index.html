@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<title>Michal Maciej Dzienis @BeardLantern | Portfolio v0.1 Alpha</title>
+<head><!-- just CSS files  -->
+	<link rel="icon" href="beardlantern.png"></link>
+	<link rel="stylesheet" href="index.css"></link>
+	<link rel="stylesheet" href="guts.css"></link>
+	<link rel="stylesheet" href="overlay.css"></link>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"></link>
+</head>
+
+<body><!-- everything visible -->
+<div id="header">
+<ul class="top">
+	<li><a class="subMenu random" onClick='pickClick("id random inactive", "inactive")' >Portfolio v0.1 Alpha</a></li>
+	<li><a>|</a></li>
+	<li><a class="subMenu drawings" onClick='pickClick("id drawings inactive", "active")'>Drawings</a></li>
+	<li><a class="subMenu pr_material" onClick='pickClick("id pr_material inactive", "active")'>PR Material</a></li>
+	<li><a class="subMenu magazines_news" onClick='pickClick("id magazines_news inactive", "active")'>Magazines/News</a></li>
+	<li><a class="subMenu apps_sites" onClick='pickClick("id apps_sites inactive", "active")'>Apps/Websites</a></li>
+	<li><a class="subMenu hardware" onClick='pickClick("id hardware inactive", "active")'>Hardware/Props</a></li>
+	<li><a>|</a></li>
+	<li><a id ="michal" class="subMenu michal" onClick='pickClick("id michal inactive", "active")'>About</a></li>
+</ul>
+</div>
+
+<div id="overlay" class="overlay"><div id="magnify"></div></div>
+<div id="about">
+	<h2>About Michal</h2>
+	<p>Cheers to You!<br>I'm Michal, 26, and have currently concluded my IT education at University of Gothenburg in bachelor program of Software Engineering & Management, and masters program of IT Management; plus chairmanships at local student union Gota, and IT association, SKIP. I'm currently part-time employed at Belba-Originalmobler(.se) Design as webshop designer, and system administrator, but on the side creating my own brand as BeardLantern! I am a complete workaholic ( and happy about it :D ), and excel most when challenged and surrounded by superiors.<br><br>My passions include:<br>- graphic/interface designs<br>- fixing/improving/bettering things(anything from people to concepts to systems)<br>- self-development in as many areas of myself as I can; life is a journey after all</p>
+	<h2>About the site</h2>
+	<p>This portfolio of mine is basically a testing ground in web-development. Using an automated, semi-randomized picture display "algorithm" made in Javascript and JQuery I want to show You, what I have worked with, and working on now. The main purpose of this is simplicity and getting You interested by browsing around and makinf thoughts of your own based on just images; "Pictures say more than 1000 words", right? Randomization feature also shows You new things each time (I hope)<br>Since the point is to communicate through pictures not words, I dropped needless labels. Look closely, pay attention and I'm sure you will figure everything out! ;)<br><br>An option to comment will be added in the future, thus utilizing the viewers to label my work; an artistic experiment of sorts. For now, enjoy, browse around, and if you want to know more, feel free to get in touch ;)</p>
+	<h2>About what's next</h2>
+	<p>This is a 0.1 Alpha, so naturally its not perfect, and trust me I am aware of the shortcomings. The closest update will focus primarily on:<br>- elimination of duplicates in displayed images<br>- complete optimization of the script for different browsers (yes, even Microsoft Edge)</p>
+</div>
+<div id="guts"></div>
+<ul class="bottom">
+	<li>
+	<i onClick='mediaClick("facebook")' class="subMenu fa fa-facebook-official" style="font-size:20px; color:#3B5998"></i>
+	<i onClick='mediaClick("twitter")' class="subMenu fa fa-twitter" style="font-size:20px; color:#00ACED"></i>
+	<i onClick='mediaClick("instagram")' class="subMenu fa fa-instagram" style="font-size:20px; color:brown"></i>
+	<i onClick='mediaClick("linkedin")' class="subMenu fa fa-linkedin-square" style="font-size:20px; color:#4875B4"></i>
+	<i onClick='mediaClick("github")' class="subMenu fa fa-github" style="font-size:20px; color:black"></i>	
+	<i onClick='mediaClick("gmail")' class="subMenu fa fa-envelope-o" style="font-size:20px; color:red;"></i>
+	</li>
+	<li><a>|</a></li>
+	<li><a id="name">Michal Maciej Dzienis @BeardLantern</a></li>
+	<li><a>|</a></li>
+	<li><a id="name">phone: +46 722 78 21 36</a></li>
+</ul>
+</body>
+<footer><!-- just JS files  -->
+	<script src="index.js"></script>
+	<script src="guts2.js"></script>
+	<script src="random.js"></script>
+	<script src="pickClick.js"></script>
+	<script src="overlay.js"></script>
+	<script src="resolution.js"></script>
+	<script src="noDup.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="onload.js"></script>
+</footer>

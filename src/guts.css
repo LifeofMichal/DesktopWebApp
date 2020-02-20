@@ -1,0 +1,55 @@
+/* TOP RIGHT BOTTOM LEFT */
+#guts{
+width: 100%;
+margin: 48px 0px 0px 0px;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+.container{
+height: 270px;
+margin: 0px auto 0px auto;
+}
+.container div{
+display: inline-block;
+background-size: cover;
+border-color: white lightgray lightgray white;
+border-style: solid;
+border-width: 10px;
+}
+.container div:hover{
+cursor: pointer;
+}
+.ax1{
+height: 115px;
+width: 115px;
+display: block !important;
+}
+.axc{
+height: 270px;
+width: 135px;
+border: none !important;
+}
+.bx4{
+height: 250px;
+width: 250px;
+}
+.inactive:hover{
+}
+.random:hover, .michal:hover, .more:hover{
+border-color: lightgray white white lightgray;
+}
+.drawings:hover{
+border-color: lightpink white white lightpink;
+}
+.pr_material:hover{
+border-color: lightblue white white lightblue;
+}
+.magazines_news:hover{
+border-color: orange white white orange;
+}
+.apps_sites:hover{
+border-color: yellow white white yellow;
+}
+.hardware:hover{
+border-color: lightgreen white white lightgreen;
+}

@@ -1,0 +1,56 @@
+/* TOP RIGHT BOTTOM LEFT*/
+body{
+width: 100%;
+overflow-x: hidden;
+font-family: Sans-Serif;
+font-variant: small-caps;
+text-decoration: none;
+}
+.top{
+top: 0;
+position: fixed;
+}
+.bottom{
+bottom: 0;
+position: fixed;
+}
+ul{
+background-color: white;
+width: 100%;
+right: 0;
+text-align: center;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+ul li{
+display: inline;
+}
+ul li a{
+display: inline-block;
+color: black;
+font-size: 15px;
+text-align: center;
+text-decoration: none;
+padding: 10px 10px 10px 10px;
+}
+ul li .subMenu{
+border-color: white lightgray lightgray white;
+border-style: solid;
+border-width: 5px;
+}
+ul li i{
+margin: 5px 0px 0px 0px;
+}
+ul li i.subMenu:hover{
+cursor: pointer;
+border-color: lightgray white white lightgray;
+}
+ul li a.subMenu:hover{
+cursor: pointer;
+color: darkgreen;
+}
+ul li a#name{
+font-size: 15px;
+margin: 0px 0px 0px 0px;
+font-variant: caps;
+}

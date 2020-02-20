@@ -1,0 +1,41 @@
+#overlay{
+height: 100%;
+width: 0%;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.6);
+overflow-x: hidden;
+overflow-y: hidden;
+}
+#magnify{
+height: 0%;
+width: 0%;
+transition: 0.5s;
+margin: 0px auto 0px auto;
+background-color: white;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center center;
+}
+#about{
+height: 100%;
+width: 0px;
+transition: width 0.3s;
+position: fixed;
+z-index: 2;
+top: 0;
+right: 0;
+display: block;
+color: white;
+font-size: 15px;
+background-color: rgba(0, 0, 0, 0.97);
+}
+#about:hover{
+cursor: pointer;
+}
+#about h2, p{
+margin: 20px 40px 0px 40px;
+}
+
